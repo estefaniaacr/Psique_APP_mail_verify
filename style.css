@@ -1,0 +1,79 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    background-color: #F7F3E2;
+}
+.mail-verify-account{
+    width: 600px;
+    height: 100%;
+    margin: auto;
+}
+
+.main-image img{
+    margin: auto;
+    height: 100%;
+    width: 400px;
+    padding: 3%;
+    display: block;
+}
+
+h1{
+    font-size: 1.25rem;
+    text-align: center;
+}
+p{
+    font-size: 1rem;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: #4b8375;
+    padding: 5%;
+    color: white;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .btn-v-a{
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.10rem;
+    
+  }
+
+  .codigo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  }
+ 
+  .button {
+   border-width:0;
+    padding: 10px 10px 10px 12px;
+    width: 70%;
+    height: 100%;
+    background: #4B8476;
+    border-radius: 30px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.455);
+  }
+
+  .button:hover{
+    background: #32594f;
+  }
+  @media screen and (max-width: 600px){
+    .mail-verify-account{
+        width: 90%;
+        height: 100%;
+        margin: auto;
+    }
+    div .header img{
+        width: 60%;
+    }
+  }
